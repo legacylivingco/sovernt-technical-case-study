@@ -85,3 +85,14 @@ Files distinguish between **sanitized application excerpts** and **simplified il
 The [example tests](tests/README.md) cover redirect validation, storefront identifiers, checkout gating, and order edit policy. They run locally without a database and are separate from the application's Production test suite. Passing them establishes behavior for these examples, not a security certification or full-system verification.
 
 This portfolio excludes customer data, credentials, live infrastructure identifiers, commercial formulas, and the application's Git history. It presents selected design patterns rather than distributing the complete application.
+
+## How to run the examples
+
+These examples need Node.js 22 or newer. No dependency installation or database is required. From this workspace, run:
+
+```
+node --experimental-strip-types tests/safe-next-path.test.ts
+node --experimental-strip-types tests/storefront-slug.test.ts
+node --experimental-strip-types tests/checkout-gating.test.ts
+node --experimental-strip-types tests/order-edit-policy.test.ts
+```
