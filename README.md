@@ -10,6 +10,15 @@ My role was to turn business requirements into concrete application behavior, di
 
 The application uses Next.js, React, TypeScript, Better Auth, PostgreSQL on Neon, Drizzle ORM, Vitest, and Vercel.
 
+## Project outcomes
+
+- **Shipped a production application:** Translated operational requirements into a working multi-role commerce platform, from account onboarding and authorization to order management and financial workflows.
+- **Built a repeatable delivery process:** Used separate development, Preview, Production, and test environments, with GitHub-based checks and human-reviewed releases to reduce deployment risk.
+- **Applied AI across the development lifecycle:** Used ChatGPT to clarify requirements and review evidence, and Cursor to implement scoped changes, while retaining responsibility for validation and release decisions.
+- **Designed for real-world complexity:** Addressed permissions across business relationships, idempotent onboarding, database constraints, and order-history integrity.
+
+These are project-level outcomes, not claims that the sanitized examples in this repository constitute the full production application.
+
 ## Start here
 
 The most useful examples cover three questions:
